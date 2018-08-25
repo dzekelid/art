@@ -33,56 +33,55 @@ paths:
       - Account
       - Register
       - Art
-  /api/v1/Art:
+  /api/v1/art/{unique}/details:
     get:
-      summary: Get Art
-      description: Get art.
-      operationId: getApiV1Art
-      x-api-path-slug: apiv1art-get
+      summary: Get Art Unique Details
+      description: Get art unique details.
+      operationId: getApiV1ArtUniqueDetails
+      x-api-path-slug: apiv1artuniquedetails-get
       parameters:
-      - in: header
-        name: Authorization
+      - in: path
+        name: unique
       responses:
         200:
           description: OK
       tags:
       - Art
-  /api/v1/art/background:
-    post:
-      summary: Post Art Background
-      description: Post art background.
-      operationId: postApiV1ArtBackground
-      x-api-path-slug: apiv1artbackground-post
+      - Unique
+      - Details
+  /api/v1/art/{id}/videos:
+    get:
+      summary: Get Art Veos
+      description: Get art veos.
+      operationId: getApiV1ArtVeos
+      x-api-path-slug: apiv1artidvideos-get
       parameters:
-      - in: header
-        name: Authorization
-      - in: query
-        name: file
+      - in: path
+        name: id
+        description: Id
       responses:
         200:
           description: OK
       tags:
       - Art
-      - Background
-  /api/v1/art/info:
-    post:
-      summary: Post Art Info
-      description: Post art info.
-      operationId: postApiV1ArtInfo
-      x-api-path-slug: apiv1artinfo-post
+      - Veos
+  /api/v1/art/{id}/events/past:
+    get:
+      summary: Get Art Events Past
+      description: Get art events past.
+      operationId: getApiV1ArtEventsPast
+      x-api-path-slug: apiv1artideventspast-get
       parameters:
-      - in: header
-        name: Authorization
-      - in: body
-        name: request
-        schema:
-          $ref: '#/definitions/holder'
+      - in: path
+        name: id
+        description: Id
       responses:
         200:
           description: OK
       tags:
       - Art
-      - Info
+      - Events
+      - Past
   /api/v1/art/invited/{artistId}/{eventId}:
     get:
       summary: Get Art Invited Artistid Eventid

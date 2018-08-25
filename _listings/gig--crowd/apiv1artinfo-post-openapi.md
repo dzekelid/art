@@ -33,37 +33,94 @@ paths:
       - Account
       - Register
       - Art
-  /api/v1/Art:
+  /api/v1/art/{unique}/details:
     get:
-      summary: Get Art
-      description: Get art.
-      operationId: getApiV1Art
-      x-api-path-slug: apiv1art-get
+      summary: Get Art Unique Details
+      description: Get art unique details.
+      operationId: getApiV1ArtUniqueDetails
+      x-api-path-slug: apiv1artuniquedetails-get
       parameters:
-      - in: header
-        name: Authorization
+      - in: path
+        name: unique
       responses:
         200:
           description: OK
       tags:
       - Art
-  /api/v1/art/background:
+      - Unique
+      - Details
+  /api/v1/art/{id}/videos:
+    get:
+      summary: Get Art Veos
+      description: Get art veos.
+      operationId: getApiV1ArtVeos
+      x-api-path-slug: apiv1artidvideos-get
+      parameters:
+      - in: path
+        name: id
+        description: Id
+      responses:
+        200:
+          description: OK
+      tags:
+      - Art
+      - Veos
+  /api/v1/art/{id}/events/past:
+    get:
+      summary: Get Art Events Past
+      description: Get art events past.
+      operationId: getApiV1ArtEventsPast
+      x-api-path-slug: apiv1artideventspast-get
+      parameters:
+      - in: path
+        name: id
+        description: Id
+      responses:
+        200:
+          description: OK
+      tags:
+      - Art
+      - Events
+      - Past
+  /api/v1/art/invited/{artistId}/{eventId}:
+    get:
+      summary: Get Art Invited Artistid Eventid
+      description: Get art invited artistid eventid.
+      operationId: getApiV1ArtInvitedArtistEvent
+      x-api-path-slug: apiv1artinvitedartistideventid-get
+      parameters:
+      - in: path
+        name: artistId
+      - in: path
+        name: eventId
+      responses:
+        200:
+          description: OK
+      tags:
+      - Art
+      - Invited
+      - Artistid
+      - Eventid
+  /api/v1/art/search/{page}:
     post:
-      summary: Post Art Background
-      description: Post art background.
-      operationId: postApiV1ArtBackground
-      x-api-path-slug: apiv1artbackground-post
+      summary: Post Art Search Page
+      description: Post art search page.
+      operationId: postApiV1ArtSearchPage
+      x-api-path-slug: apiv1artsearchpage-post
       parameters:
-      - in: header
-        name: Authorization
-      - in: query
-        name: file
+      - in: path
+        name: page
+      - in: body
+        name: request
+        schema:
+          $ref: '#/definitions/holder'
       responses:
         200:
           description: OK
       tags:
       - Art
-      - Background
+      - Search
+      - Page
   /api/v1/art/info:
     post:
       summary: Post Art Info
