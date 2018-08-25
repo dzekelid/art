@@ -11,18 +11,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/paspartout/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Paspartout
-  x-api-slug: paspartout
-  description: The Paspartout API is meant for developers or Paspartout site owners
-    who want to create widgets, use public Paspartout data externally or extend behavior.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/885-paspartout.jpg
-  humanURL: http://paspartout.com/
-  baseURL: https:///
-  tags: Art
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/paspartout/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: http://api.paspartout.com/public/

@@ -11,9 +11,9 @@ modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/vestorly/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Vestorly
-  x-api-slug: vestorly
-  description: vestorly-developers-api
+- name: Vestorly - Get Articles
+  x-api-slug: articles-get
+  description: Returns all articles
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/vestorly.png
   humanURL: http://vestorly.com
   baseURL: https://staging.vestorly.com//api/v2
@@ -23,32 +23,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/vestorly/articles-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/vestorly/articles-get-openapi.md
-- name: Vestorly
-  x-api-slug: vestorly
-  description: vestorly-developers-api
+- name: Vestorly - Get Articles
+  x-api-slug: articlesid-get
+  description: Returns a single article
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/vestorly.png
   humanURL: http://vestorly.com
   baseURL: https://staging.vestorly.com//api/v2
   tags: Content, Service API, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/vestorly/articles-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/vestorly/articles-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/vestorly/articlesid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/vestorly/articlesid-get-openapi.md
-- name: Vestorly
-  x-api-slug: vestorly
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/vestorly.png
-  humanURL: http://vestorly.com
-  baseURL: https://staging.vestorly.com//api/v2
-  tags: Art
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/vestorly/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://versapay.api.gallery.streamdata.io

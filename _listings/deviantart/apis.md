@@ -11,23 +11,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/deviantart/apis.md
 specificationVersion: "0.14"
-apis:
-- name: deviantART
-  x-api-slug: deviantart
-  description: There are two ways for applications and websites to integrate with
-    deviantART. The oEmbed API, which allows to display content from deviantART, and
-    the Sta.sh API, enabling submission of creative content to deviantART from any
-    source. We have designed our APIs to use open standards, allowing developers to
-    leverage off-the-shelf libraries. We aim to provide APIs that are as simple as
-    possible and still open the door to great possibilities for your applications
-    and websites.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/180-deviantart.jpg
-  humanURL: http://www.deviantart.com
-  baseURL: https:///
-  tags: Art
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/deviantart/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: https://www.deviantart.com/api

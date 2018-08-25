@@ -11,23 +11,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/fanart-tv/apis.md
 specificationVersion: "0.14"
-apis:
-- name: fanart.tv TV
-  x-api-slug: fanart-tv-tv
-  description: Our TV Fanart section has TV artwork to enhance your media centre experience,
-    we maintain high standards to ensure you can rely on the quality that we provide,
-    the TV section is the original fanart.tv offering and you will find a collection
-    of tv show logos on transparent backgrounds (ClearLOGOs), images with the show
-    logo and a character on a transparent background (ClearART) and a selection of
-    landscape show and season thumbs (TV Thumbs and Season Thumbs). Every image goes
-    through a moderation process to ensure quality.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/781-fanart-tv.jpg
-  humanURL: https://fanart.tv/
-  baseURL: https:///
-  tags: Art
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/fanart-tv/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: http://webservice.fanart.tv/

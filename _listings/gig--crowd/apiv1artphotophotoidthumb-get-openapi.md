@@ -33,94 +33,37 @@ paths:
       - Account
       - Register
       - Art
-  /api/v1/art/{unique}/details:
+  /api/v1/Art:
     get:
-      summary: Get Art Unique Details
-      description: Get art unique details.
-      operationId: getApiV1ArtUniqueDetails
-      x-api-path-slug: apiv1artuniquedetails-get
+      summary: Get Art
+      description: Get art.
+      operationId: getApiV1Art
+      x-api-path-slug: apiv1art-get
       parameters:
-      - in: path
-        name: unique
+      - in: header
+        name: Authorization
       responses:
         200:
           description: OK
       tags:
       - Art
-      - Unique
-      - Details
-  /api/v1/art/{id}/videos:
-    get:
-      summary: Get Art Veos
-      description: Get art veos.
-      operationId: getApiV1ArtVeos
-      x-api-path-slug: apiv1artidvideos-get
-      parameters:
-      - in: path
-        name: id
-        description: Id
-      responses:
-        200:
-          description: OK
-      tags:
-      - Art
-      - Veos
-  /api/v1/art/{id}/events/past:
-    get:
-      summary: Get Art Events Past
-      description: Get art events past.
-      operationId: getApiV1ArtEventsPast
-      x-api-path-slug: apiv1artideventspast-get
-      parameters:
-      - in: path
-        name: id
-        description: Id
-      responses:
-        200:
-          description: OK
-      tags:
-      - Art
-      - Events
-      - Past
-  /api/v1/art/invited/{artistId}/{eventId}:
-    get:
-      summary: Get Art Invited Artistid Eventid
-      description: Get art invited artistid eventid.
-      operationId: getApiV1ArtInvitedArtistEvent
-      x-api-path-slug: apiv1artinvitedartistideventid-get
-      parameters:
-      - in: path
-        name: artistId
-      - in: path
-        name: eventId
-      responses:
-        200:
-          description: OK
-      tags:
-      - Art
-      - Invited
-      - Artistid
-      - Eventid
-  /api/v1/art/search/{page}:
+  /api/v1/art/background:
     post:
-      summary: Post Art Search Page
-      description: Post art search page.
-      operationId: postApiV1ArtSearchPage
-      x-api-path-slug: apiv1artsearchpage-post
+      summary: Post Art Background
+      description: Post art background.
+      operationId: postApiV1ArtBackground
+      x-api-path-slug: apiv1artbackground-post
       parameters:
-      - in: path
-        name: page
-      - in: body
-        name: request
-        schema:
-          $ref: '#/definitions/holder'
+      - in: header
+        name: Authorization
+      - in: query
+        name: file
       responses:
         200:
           description: OK
       tags:
       - Art
-      - Search
-      - Page
+      - Background
   /api/v1/art/info:
     post:
       summary: Post Art Info
@@ -140,17 +83,36 @@ paths:
       tags:
       - Art
       - Info
-  /api/v1/art/riderinfo:
+  /api/v1/art/invited/{artistId}/{eventId}:
+    get:
+      summary: Get Art Invited Artistid Eventid
+      description: Get art invited artistid eventid.
+      operationId: getApiV1ArtInvitedArtistEvent
+      x-api-path-slug: apiv1artinvitedartistideventid-get
+      parameters:
+      - in: path
+        name: artistId
+      - in: path
+        name: eventId
+      responses:
+        200:
+          description: OK
+      tags:
+      - Art
+      - Invited
+      - Artistid
+      - Eventid
+  /api/v1/art/link:
     post:
-      summary: Post Art Rerinfo
-      description: Post art rerinfo.
-      operationId: postApiV1ArtRerinfo
-      x-api-path-slug: apiv1artriderinfo-post
+      summary: Post Art Link
+      description: Post art link.
+      operationId: postApiV1ArtLink
+      x-api-path-slug: apiv1artlink-post
       parameters:
       - in: header
         name: Authorization
       - in: body
-        name: request
+        name: model
         schema:
           $ref: '#/definitions/holder'
       responses:
@@ -158,117 +120,41 @@ paths:
           description: OK
       tags:
       - Art
-      - Rerinfo
-  /api/v1/art/rider:
-    get:
-      summary: Get Art Rer
-      description: Get art rer.
-      operationId: getApiV1ArtRer
-      x-api-path-slug: apiv1artrider-get
-      parameters:
-      - in: header
-        name: Authorization
-      responses:
-        200:
-          description: OK
-      tags:
-      - Art
-      - Rer
-    post:
-      summary: Post Art Rer
-      description: Post art rer.
-      operationId: postApiV1ArtRer
-      x-api-path-slug: apiv1artrider-post
-      parameters:
-      - in: header
-        name: Authorization
-      - in: query
-        name: file
-      responses:
-        200:
-          description: OK
-      tags:
-      - Art
-      - Rer
+      - Link
+  /api/v1/art/link/{id}:
     delete:
-      summary: Delete Art Rer
-      description: Delete art rer.
-      operationId: deleteApiV1ArtRer
-      x-api-path-slug: apiv1artrider-delete
+      summary: Delete Art Link
+      description: Delete art link.
+      operationId: deleteApiV1ArtLink
+      x-api-path-slug: apiv1artlinkid-delete
       parameters:
       - in: header
         name: Authorization
+      - in: path
+        name: id
       responses:
         200:
           description: OK
       tags:
       - Art
-      - Rer
-  /api/v1/art/rider/home:
-    get:
-      summary: Get Art Rer Home
-      description: Get art rer home.
-      operationId: getApiV1ArtRerHome
-      x-api-path-slug: apiv1artriderhome-get
-      parameters:
-      - in: header
-        name: Authorization
-      responses:
-        200:
-          description: OK
-      tags:
-      - Art
-      - Rer
-      - Home
-    post:
-      summary: Post Art Rer Home
-      description: Post art rer home.
-      operationId: postApiV1ArtRerHome
-      x-api-path-slug: apiv1artriderhome-post
-      parameters:
-      - in: header
-        name: Authorization
-      - in: query
-        name: file
-      responses:
-        200:
-          description: OK
-      tags:
-      - Art
-      - Rer
-      - Home
+      - Link
+  /api/v1/art/photo/{id}:
     delete:
-      summary: Delete Art Rer Home
-      description: Delete art rer home.
-      operationId: deleteApiV1ArtRerHome
-      x-api-path-slug: apiv1artriderhome-delete
+      summary: Delete Art Photo
+      description: Delete art photo.
+      operationId: deleteApiV1ArtPhoto
+      x-api-path-slug: apiv1artphotoid-delete
       parameters:
       - in: header
         name: Authorization
+      - in: path
+        name: id
       responses:
         200:
           description: OK
       tags:
       - Art
-      - Rer
-      - Home
-  /api/v1/art/background:
-    post:
-      summary: Post Art Background
-      description: Post art background.
-      operationId: postApiV1ArtBackground
-      x-api-path-slug: apiv1artbackground-post
-      parameters:
-      - in: header
-        name: Authorization
-      - in: query
-        name: file
-      responses:
-        200:
-          description: OK
-      tags:
-      - Art
-      - Background
+      - Photo
   /api/v1/art/photo/{photoId}:
     get:
       summary: Get Art Photo Photoid

@@ -13,31 +13,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/aws-device-farm/apis.md
 specificationVersion: "0.14"
-apis:
-- name: AWS Device Farm API
-  x-api-slug: aws-device-farm-api
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AWSDeviceFarm.png
-  humanURL: https://aws.amazon.com/device-farm/
-  baseURL: :///
-  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
-    API Provider, Profiles, Relative Data, Service API
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/aws-device-farm/actionlistartifacts-get-openapi.md
-- name: AWS Device Farm API
-  x-api-slug: aws-device-farm-api
-  description: AWS Device Farm is an app testing service that lets you test and interact
-    with your Android, iOS, and web apps on many devices at once, or reproduce issues
-    on a device in real time. View video, screenshots, logs, and performance data
-    to pinpoint and fix issues before shipping your app.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AWSDeviceFarm.png
-  humanURL: https://aws.amazon.com/device-farm/
-  baseURL: :///
-  tags: Art
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/aws-device-farm/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://aws.database.migration.service.api.gallery.streamdata.io
