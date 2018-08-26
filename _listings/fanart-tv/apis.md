@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/781-fanart
 x-kinRank: "7"
 x-alexaRank: "36109"
 tags: Art
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/fanart-tv/apis.md
 specificationVersion: "0.14"
 apis: []
