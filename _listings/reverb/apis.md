@@ -35,6 +35,19 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/reverb/articles-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/reverb/articles-get-openapi.md
+- name: reverb - Get Articles
+  x-api-slug: articles-get
+  description: Get articles.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png
+  humanURL: https://helloreverb.com/app
+  baseURL: https://api.reverb.com//api
+  tags: Dictionary, Spelling, API LIfeyclessss, Stack Network, Commerce, Relative
+    Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/reverb/articles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/reverb/articles-get-openapi.md
 - name: reverb - Get Articles Featured
   x-api-slug: articlesfeatured-get
   description: See featured Reverb blog posts
@@ -48,6 +61,32 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/reverb/articlesfeatured-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/reverb/articlesfeatured-get-openapi.md
+- name: reverb - Get Articles Featured
+  x-api-slug: articlesfeatured-get
+  description: See featured Reverb blog posts
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png
+  humanURL: https://helloreverb.com/app
+  baseURL: https://api.reverb.com//api
+  tags: Dictionary, Spelling, API LIfeyclessss, Stack Network, Commerce, Relative
+    Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/reverb/articlesfeatured-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/reverb/articlesfeatured-get-openapi.md
+- name: reverb - Get Articles Recently Featured
+  x-api-slug: articlesrecently-featured-get
+  description: Get articles recently featured.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png
+  humanURL: https://helloreverb.com/app
+  baseURL: https://api.reverb.com//api
+  tags: Dictionary, Spelling, API LIfeyclessss, Stack Network, Commerce, Relative
+    Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/reverb/articlesrecently-featured-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/reverb/articlesrecently-featured-get-openapi.md
 - name: reverb - Get Articles Recently Featured
   x-api-slug: articlesrecently-featured-get
   description: Get articles recently featured.

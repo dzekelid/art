@@ -324,6 +324,355 @@ paths:
       - Art
       - Photo
       - Type
+  /api/v1/art/link:
+    post:
+      summary: Post Art Link
+      description: Post art link.
+      operationId: postApiV1ArtLink
+      x-api-path-slug: apiv1artlink-post
+      parameters:
+      - in: header
+        name: Authorization
+      - in: body
+        name: model
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Art
+      - Link
+  /api/v1/art/photo/{id}:
+    delete:
+      summary: Delete Art Photo
+      description: Delete art photo.
+      operationId: deleteApiV1ArtPhoto
+      x-api-path-slug: apiv1artphotoid-delete
+      parameters:
+      - in: header
+        name: Authorization
+      - in: path
+        name: id
+      responses:
+        200:
+          description: OK
+      tags:
+      - Art
+      - Photo
+  /api/v1/art/link/{id}:
+    delete:
+      summary: Delete Art Link
+      description: Delete art link.
+      operationId: deleteApiV1ArtLink
+      x-api-path-slug: apiv1artlinkid-delete
+      parameters:
+      - in: header
+        name: Authorization
+      - in: path
+        name: id
+      responses:
+        200:
+          description: OK
+      tags:
+      - Art
+      - Link
+  /api/v1/art/video:
+    post:
+      summary: Post Art Veo
+      description: Post art veo.
+      operationId: postApiV1ArtVeo
+      x-api-path-slug: apiv1artvideo-post
+      parameters:
+      - in: header
+        name: Authorization
+      - in: body
+        name: request
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Art
+      - Veo
+  /api/v1/art/video/{id}:
+    delete:
+      summary: Delete Art Veo
+      description: Delete art veo.
+      operationId: deleteApiV1ArtVeo
+      x-api-path-slug: apiv1artvideoid-delete
+      parameters:
+      - in: header
+        name: Authorization
+      - in: path
+        name: id
+      responses:
+        200:
+          description: OK
+      tags:
+      - Art
+      - Veo
+  /api/v1/art/video/{id}/main:
+    post:
+      summary: Post Art Veo Main
+      description: Post art veo main.
+      operationId: postApiV1ArtVeoMain
+      x-api-path-slug: apiv1artvideoidmain-post
+      parameters:
+      - in: header
+        name: Authorization
+      - in: path
+        name: id
+      responses:
+        200:
+          description: OK
+      tags:
+      - Art
+      - Veo
+      - Main
+  /api/v1/Art:
+    get:
+      summary: Get Art
+      description: Get art.
+      operationId: getApiV1Art
+      x-api-path-slug: apiv1art-get
+      parameters:
+      - in: header
+        name: Authorization
+      responses:
+        200:
+          description: OK
+      tags:
+      - Art
+  /api/v1/request/art/invite:
+    post:
+      summary: Post Request Art Invite
+      description: Post request art invite.
+      operationId: postApiV1RequestArtInvite
+      x-api-path-slug: apiv1requestartinvite-post
+      parameters:
+      - in: header
+        name: Authorization
+      - in: body
+        name: request
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Request
+      - Art
+      - Invite
+  /api/v1/request/art/in:
+    get:
+      summary: Get Request Art In
+      description: Get request art in.
+      operationId: getApiV1RequestArtIn
+      x-api-path-slug: apiv1requestartin-get
+      parameters:
+      - in: header
+        name: Authorization
+      responses:
+        200:
+          description: OK
+      tags:
+      - Request
+      - Art
+      - In
+  /api/v1/request/art/calendar:
+    get:
+      summary: Get Request Art Calendar
+      description: Get request art calendar.
+      operationId: getApiV1RequestArtCalendar
+      x-api-path-slug: apiv1requestartcalendar-get
+      parameters:
+      - in: header
+        name: Authorization
+      - in: query
+        name: request.from
+      - in: query
+        name: request.to
+      responses:
+        200:
+          description: OK
+      tags:
+      - Request
+      - Art
+      - Calendar
+  /api/v1/request/art/archive:
+    get:
+      summary: Get Request Art Archive
+      description: Get request art archive.
+      operationId: getApiV1RequestArtArchive
+      x-api-path-slug: apiv1requestartarchive-get
+      parameters:
+      - in: header
+        name: Authorization
+      responses:
+        200:
+          description: OK
+      tags:
+      - Request
+      - Art
+      - Archive
+  /api/v1/request/art/reject:
+    post:
+      summary: Post Request Art Reject
+      description: Post request art reject.
+      operationId: postApiV1RequestArtReject
+      x-api-path-slug: apiv1requestartreject-post
+      parameters:
+      - in: header
+        name: Authorization
+      - in: body
+        name: request
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Request
+      - Art
+      - Reject
+  /api/v1/request/art/accept:
+    post:
+      summary: Post Request Art Accept
+      description: Post request art accept.
+      operationId: postApiV1RequestArtAccept
+      x-api-path-slug: apiv1requestartaccept-post
+      parameters:
+      - in: header
+        name: Authorization
+      - in: body
+        name: request
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Request
+      - Art
+      - Accept
+  /api/v1/request/art/accept/performanceDate:
+    post:
+      summary: Post Request Art Accept Performancedate
+      description: Post request art accept performancedate.
+      operationId: postApiV1RequestArtAcceptPerformancedate
+      x-api-path-slug: apiv1requestartacceptperformancedate-post
+      parameters:
+      - in: header
+        name: Authorization
+      - in: body
+        name: request
+        description: /
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Request
+      - Art
+      - Accept
+      - Performancedate
+  /api/v1/request/art/reject/performanceDate:
+    post:
+      summary: Post Request Art Reject Performancedate
+      description: Post request art reject performancedate.
+      operationId: postApiV1RequestArtRejectPerformancedate
+      x-api-path-slug: apiv1requestartrejectperformancedate-post
+      parameters:
+      - in: header
+        name: Authorization
+      - in: body
+        name: request
+        description: /
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Request
+      - Art
+      - Reject
+      - Performancedate
+  /api/v1/request/{requestId}/art/{artistId}/rider:
+    get:
+      summary: Get Request Requestid Art Artistid Rer
+      description: Get request requestid art artistid rer.
+      operationId: getApiV1RequestRequestArtArtistRer
+      x-api-path-slug: apiv1requestrequestidartartistidrider-get
+      parameters:
+      - in: path
+        name: artistId
+      - in: header
+        name: Authorization
+      - in: path
+        name: requestId
+        description: /
+      responses:
+        200:
+          description: OK
+      tags:
+      - Request
+      - Requestid
+      - Art
+      - Artistid
+      - Rer
+  /api/v1/request/{requestId}/art/{artistId}/rider/home:
+    get:
+      summary: Get Request Requestid Art Artistid Rer Home
+      description: Get request requestid art artistid rer home.
+      operationId: getApiV1RequestRequestArtArtistRerHome
+      x-api-path-slug: apiv1requestrequestidartartistidriderhome-get
+      parameters:
+      - in: path
+        name: artistId
+      - in: header
+        name: Authorization
+      - in: path
+        name: requestId
+        description: /
+      responses:
+        200:
+          description: OK
+      tags:
+      - Request
+      - Requestid
+      - Art
+      - Artistid
+      - Rer
+      - Home
+  /api/v1/request/{requestId}/art/{artistId}/presskit/{photoId}:
+    get:
+      summary: Get Request Requestid Art Artistid Presskit Photoid
+      description: Get request requestid art artistid presskit photoid.
+      operationId: getApiV1RequestRequestArtArtistPresskitPhoto
+      x-api-path-slug: apiv1requestrequestidartartistidpresskitphotoid-get
+      parameters:
+      - in: path
+        name: artistId
+      - in: header
+        name: Authorization
+      - in: path
+        name: photoId
+      - in: path
+        name: requestId
+      responses:
+        200:
+          description: OK
+      tags:
+      - Request
+      - Requestid
+      - Art
+      - Artistid
+      - Presskit
+      - Photoid
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

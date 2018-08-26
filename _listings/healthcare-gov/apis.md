@@ -31,6 +31,32 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/healthcare-gov/apiarticlesmediatypeextension-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/healthcare-gov/apiarticlesmediatypeextension-get-openapi.md
+- name: Healthcare - Get API Articles Media Type Extension
+  x-api-slug: apiarticlesmediatypeextension-get
+  description: Returns pages content.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Healthcare.gov_logo.png
+  humanURL: http://www.healthcare.gov
+  baseURL: https://www.healthcare.gov//
+  tags: Federal Government, Federal Government, Stack Network, Insurance, Healthcare,
+    API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/healthcare-gov/apiarticlesmediatypeextension-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/healthcare-gov/apiarticlesmediatypeextension-get-openapi.md
+- name: Healthcare - Get Articles
+  x-api-slug: apiarticlesmediatypeextension-get
+  description: Returns pages content.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Healthcare.gov_logo.png
+  humanURL: http://www.healthcare.gov
+  baseURL: https://www.healthcare.gov//
+  tags: Federal Government, Federal Government, Stack Network, Insurance, Healthcare,
+    API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/healthcare-gov/apiarticlesmediatypeextension-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/healthcare-gov/apiarticlesmediatypeextension-get-openapi.md
 - name: Healthcare - Get Articles
   x-api-slug: apiarticlesmediatypeextension-get
   description: Returns pages content.
