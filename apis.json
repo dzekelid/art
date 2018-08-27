@@ -1,0 +1,299 @@
+{
+	"name": "Streadata.io API Gallery - Art",
+	"description": "This is a repository of art APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/art.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://art.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Reverb",
+			"x-api-slug": "reverb",
+			"description": "Reverb&#8217;s mission is to connect people with meaningful content.Reverb was created to find and connect the rich associations between words, ideas, content, and people. Through our products, we enhance broader knowledge around favorite topics by surfacing interesting information readers might not uncover on their own. We make tools for content understanding at every level from the single word on up. Wordnik: Get a full view of any word you???re interested in, with definitions, example sentences, related words, tweets from Twitter, pictures from Flickr, and much more.Reverb for Publishers: Reverb for Publishers brings relevant content to web audiences and surfaces additional content for publishers.Reverb for Developers: Reverb is committed to the open-source community and is proudly contributing infrastructure software to power applications and enterprises both small and gigantic. Our involvement with the Wordnik API, Scalatra, Swagger and Atmosphere is detailed on our site.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png",
+			"humanURL": "https://helloreverb.com/app",
+			"baseURL": "https://api.reverb.com//api",
+			"tags": "Art",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/reverb/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "DeviantArt",
+			"x-api-slug": "deviantart",
+			"description": "Popular 24 Hours - Your spot for viewing some of the best pieces on DeviantArt. Be inspired by a huge range of artwork from artists around the world.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/180-deviantart.jpg",
+			"humanURL": "http://www.deviantart.com",
+			"baseURL": "https:///",
+			"tags": "Art",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/deviantart/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Europeana",
+			"x-api-slug": "europeana",
+			"description": "Explore 51,990,182 artworks, artefacts, books, videos and sounds from more than 3,500 museums, galleries, libraries and archives across Europe.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/777-europeana.jpg",
+			"humanURL": "http://europeana.eu/portal/",
+			"baseURL": "https://www.europeana.eu/v2/",
+			"tags": "Art",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/europeana/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Fanart.tv",
+			"x-api-slug": "fanart-tv",
+			"description": "Logos, Backgrounds, Posters and more for your TV, Movie and Music collections, API is used by xbmc, mediabrowser, mediaportal and plex among many others",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/781-fanart-tv.jpg",
+			"humanURL": "https://fanart.tv/",
+			"baseURL": "https:///",
+			"tags": "Art",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/fanart-tv/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Paspartout",
+			"x-api-slug": "paspartout",
+			"description": "Paspartout helps you to build and maintain a free online portfolio or online shop, use paspartout to show your work to the world.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/885-paspartout.jpg",
+			"humanURL": "http://paspartout.com/",
+			"baseURL": "https:///",
+			"tags": "Art",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/paspartout/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Spotify",
+			"x-api-slug": "spotify",
+			"description": "Spotify is a digital music service that gives you access to millions of songs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg",
+			"humanURL": "http://www.spotify.com",
+			"baseURL": "https://api.spotify.com//v1",
+			"tags": "Art",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/spotify/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Behance",
+			"x-api-slug": "behance",
+			"description": "Use Behance to showcase and discover creative work. Were on a mission to empower the creative world to make ideas happen.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1309-behance.jpg",
+			"humanURL": "http://www.behance.net/dev",
+			"baseURL": "https:///",
+			"tags": "Art",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/behance/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Healthcare.gov",
+			"x-api-slug": "healthcare-gov",
+			"description": "HealthCare.gov is a health insurance exchange website operated under the United States federal government under the provisions of the Patient Protection and Affordable Care Act (ACA, often known as Obamacare), designed to serve the residents of the thirty-six U.S. states that opted not to create their own state exchanges. The exchange facilitates the sale of private health insurance plans to residents of the United States[2] and offers subsidies to those who earn less than four times the federal poverty line. The website also assists those persons who are eligible to sign up for Medicaid, and has a separate marketplace for small businesses.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Healthcare.gov_logo.png",
+			"humanURL": "http://www.healthcare.gov",
+			"baseURL": "https://www.healthcare.gov//",
+			"tags": "Art",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/healthcare-gov/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Service Catalog",
+			"x-api-slug": "aws-service-catalog",
+			"description": "AWS Service Catalog allows organizations to create and manage catalogs of IT services that are approved for use on AWS. These IT services can include everything from virtual machine images, servers, software, and databases to complete multi-tier application architectures. AWS Service Catalog allows you to centrally manage commonly deployed IT services, and helps you achieve consistent governance and meet your compliance requirements, while enabling users to quickly deploy only the approved IT services they need.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSServiceCatalog.png",
+			"humanURL": "https://aws.amazon.com/servicecatalog/",
+			"baseURL": ":///",
+			"tags": "Art",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/aws-service-catalog/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Device Farm",
+			"x-api-slug": "aws-device-farm",
+			"description": "AWS Device Farm is an app testing service that lets you test and interact with your Android, iOS, and web apps on many devices at once, or reproduce issues on a device in real time. View video, screenshots, logs, and performance data to pinpoint and fix issues before shipping your app.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AWSDeviceFarm.png",
+			"humanURL": "https://aws.amazon.com/device-farm/",
+			"baseURL": ":///",
+			"tags": "Art",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/aws-device-farm/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "eMuseum API docs",
+			"x-api-slug": "emuseum-api-docs",
+			"description": "Developed in partnership with museums, The Museum System makes capturing, managing and accessing collection information quick and easy. eMuseum is a web-based software program that integrates seamlessly with TMS and other collection management systems to dynamically publish information to your website, Intranet, and kiosks. This API delivers search information and images from TMS &amp; eMuseum to GSA.gov.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/eMuseum5_Blog.jpg",
+			"humanURL": "http://gsa.github.io/eMuseum-API/",
+			"baseURL": "https://gsafinearts.pbs.gsa.gov//emuseum/api",
+			"tags": "Art",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/emuseum-api-docs/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Art",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Vestorly",
+			"x-api-slug": "vestorly",
+			"description": "",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/vestorly.png",
+			"humanURL": "http://vestorly.com",
+			"baseURL": "https://staging.vestorly.com//api/v2",
+			"tags": "Art",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/vestorly/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Predix",
+			"x-api-slug": "predix",
+			"description": "Predix (IoT PaaS) helps you develop apps that connect people with industrial machines through analytics and data for better business outcomes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png",
+			"humanURL": "https://www.predix.io",
+			"baseURL": "https:////v1",
+			"tags": "Art",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/predix/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GIG & CROWD",
+			"x-api-slug": "gig--crowd",
+			"description": "A unique system of the order and booking of artists: negotiations, coordination of conditions, convenient reminders of fee payment terms and rider preparation.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png",
+			"humanURL": "https://gigandcrowd.com",
+			"baseURL": "https://gigandcrowd.com//",
+			"tags": "Art",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/gig--crowd/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Art",
+	"include": [
+		{
+			"name": "Reverb",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/reverb/apis.yaml"
+		},
+		{
+			"name": "DeviantArt",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/deviantart/apis.yaml"
+		},
+		{
+			"name": "Europeana",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/europeana/apis.yaml"
+		},
+		{
+			"name": "Fanart.tv",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/fanart-tv/apis.yaml"
+		},
+		{
+			"name": "Paspartout",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/paspartout/apis.yaml"
+		},
+		{
+			"name": "Spotify",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/spotify/apis.yaml"
+		},
+		{
+			"name": "Behance",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/behance/apis.yaml"
+		},
+		{
+			"name": "Healthcare.gov",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/healthcare-gov/apis.yaml"
+		},
+		{
+			"name": "AWS Service Catalog",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/aws-service-catalog/apis.yaml"
+		},
+		{
+			"name": "AWS Device Farm",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/aws-device-farm/apis.yaml"
+		},
+		{
+			"name": "eMuseum API docs",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/emuseum-api-docs/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "Vestorly",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/vestorly/apis.yaml"
+		},
+		{
+			"name": "Predix",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/predix/apis.yaml"
+		},
+		{
+			"name": "GIG & CROWD",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/gig--crowd/apis.yaml"
+		}
+	]
+}

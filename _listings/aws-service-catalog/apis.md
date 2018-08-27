@@ -12,11 +12,121 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Art
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/aws-service-catalog/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Service Catalog API - Create Provisioning Artifact
+  x-api-slug: actioncreateprovisioningartifact-get
+  description: Create a new provisioning artifact for the specified product.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSServiceCatalog.png
+  humanURL: https://aws.amazon.com/servicecatalog/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/aws-service-catalog/actioncreateprovisioningartifact-get-openapi.md
+- name: AWS Service Catalog API - Create Provisioning Artifact
+  x-api-slug: actioncreateprovisioningartifact-get
+  description: Create a new provisioning artifact for the specified product.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSServiceCatalog.png
+  humanURL: https://aws.amazon.com/servicecatalog/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/aws-service-catalog/actioncreateprovisioningartifact-get-openapi.md
+- name: AWS Service Catalog API - Delete Provisioning Artifact
+  x-api-slug: actiondeleteprovisioningartifact-get
+  description: Deletes the specified provisioning artifact.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSServiceCatalog.png
+  humanURL: https://aws.amazon.com/servicecatalog/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/aws-service-catalog/actiondeleteprovisioningartifact-get-openapi.md
+- name: AWS Service Catalog API - Delete Provisioning Artifact
+  x-api-slug: actiondeleteprovisioningartifact-get
+  description: Deletes the specified provisioning artifact.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSServiceCatalog.png
+  humanURL: https://aws.amazon.com/servicecatalog/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/aws-service-catalog/actiondeleteprovisioningartifact-get-openapi.md
+- name: AWS Service Catalog API - Describe Provisioning Artifact
+  x-api-slug: actiondescribeprovisioningartifact-get
+  description: Retrieves detailed information about the specified provisioning artifact.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSServiceCatalog.png
+  humanURL: https://aws.amazon.com/servicecatalog/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/aws-service-catalog/actiondescribeprovisioningartifact-get-openapi.md
+- name: AWS Service Catalog API - Describe Provisioning Artifact
+  x-api-slug: actiondescribeprovisioningartifact-get
+  description: Retrieves detailed information about the specified provisioning artifact.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSServiceCatalog.png
+  humanURL: https://aws.amazon.com/servicecatalog/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/aws-service-catalog/actiondescribeprovisioningartifact-get-openapi.md
+- name: AWS Service Catalog API - List Provisioning Artifacts
+  x-api-slug: actionlistprovisioningartifacts-get
+  description: Lists all provisioning artifacts associated with the specified product.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSServiceCatalog.png
+  humanURL: https://aws.amazon.com/servicecatalog/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/aws-service-catalog/actionlistprovisioningartifacts-get-openapi.md
+- name: AWS Service Catalog API - List Provisioning Artifacts
+  x-api-slug: actionlistprovisioningartifacts-get
+  description: Lists all provisioning artifacts associated with the specified product.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSServiceCatalog.png
+  humanURL: https://aws.amazon.com/servicecatalog/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/aws-service-catalog/actionlistprovisioningartifacts-get-openapi.md
+- name: AWS Service Catalog API - Update Provisioning Artifact
+  x-api-slug: actionupdateprovisioningartifact-get
+  description: Updates an existing provisioning artifact's information.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSServiceCatalog.png
+  humanURL: https://aws.amazon.com/servicecatalog/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/aws-service-catalog/actionupdateprovisioningartifact-get-openapi.md
+- name: AWS Service Catalog API - Update Provisioning Artifact
+  x-api-slug: actionupdateprovisioningartifact-get
+  description: Updates an existing provisioning artifact's information.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSServiceCatalog.png
+  humanURL: https://aws.amazon.com/servicecatalog/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/art/master/_listings/aws-service-catalog/actionupdateprovisioningartifact-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.server.migration.service.api.gallery.streamdata.io
